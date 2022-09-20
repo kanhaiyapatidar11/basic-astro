@@ -1,0 +1,166 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(243 238 239 / 92%);
+}
+
+header {
+    background-image: url(image/index.gif);
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    font-size: larger;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    padding: 0px 40px;
+}
+
+nav ul li:hover {
+    border: 1px solid rgb(156, 1, 1);
+    border-radius: 20px;
+}
+
+a:link,
+a:visited {
+    color: rgb(172, 23, 23);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(156, 1, 1);
+    border: 1px solid rgb(156, 1, 1)
+}
+
+h3 {
+    color: rgb(138, 6, 6);
+    font-size: 1.2rem;
+}
+
+.item-list {
+    list-style-image: url(image/neptune-67537_640.gif);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(134, 2, 2, 0.719);
+}
+
+section {
+    display: flex;
+    align-content: space-between;
+    padding: 10px;
+
+}
+
+section img {
+    border-radius: 81px;
+}
+
+section h3,
+section p,
+section img {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+footer {
+    border: 1px solid brown;
+    margin: 10px 0;
+}
+
+footer nav ul li:hover {
+    background-color: rgb(239, 239, 245);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 71px auto;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(161, 5, 5);
+    padding: 21px 0;
+}
+
+td,
+th {
+    border: 1px solid rgb(39, 2, 2);
+    width: 45%;
+    text-align: center;
+    padding: 5px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 51px auto;
+    padding: 51px;
+    text-align: left;
+}
+
+label {
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+
+legend {
+    font-size: larger;
+    color: brown;
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    font-size: larger;
+    margin: 51px auto;
+    padding: 11px 101px;
+    border-radius: 31px;
+    cursor: pointer;
+    background-color: rgb(170, 5, 5);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(112, 4, 4);
+}
+
+#horoscope {
+    border: 1px solid brown;
+    border-radius: 11px;
+    width: 30%;
+    margin: 101px auto;
+    padding: 5px;
+    font-size: larger;
+    text-align: center;
+}
+
+#horoscope:hover {
+    border: 1px solid brown;
+    background-color: rgba(179, 174, 174, 0.459);
+    border-radius: 11px;
+    width: 30%;
+    margin: 101px auto;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+}

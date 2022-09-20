@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(243 238 239 / 92%);
+    margin: 0 auto;
+    width: 960px;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+h1,
+h3 {
+    font-size: 2rem;
+    color: rgb(156, 1, 1);
+}
+
+header {
+    background-image: url(image/index.gif);
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    margin: 0 auto;
+    width: 960px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+
+    padding: 0px 40px;
+}
+
+nav ul li:hover {
+    border: 1px solid rgb(156, 1, 1);
+    border-radius: 20px;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
+.item-list {
+    font-size: 1.2rem;
+    list-style-image: url(image/neptune-67537_640.gif);
+}
+
+ul a:hover {
+    color: rgb(139, 139, 139);
+}

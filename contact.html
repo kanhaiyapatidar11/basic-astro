@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="planets.html">Planets</a></li>
+                <li><a href="signs.html">Signs</a></li>
+                <li><a href="Houses.html">Houses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <form action="action.php" method="post">
+        <fieldset class="fieldset">
+            <legend>Personal Information</legend>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" autofocus required>
+
+            <label for="email"> E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+
+            <label for="gender">Gender</label>
+            <input type="text" id="gender" placeholder="Enter Your Gender">
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend> Know Your Horoscope</legend>
+
+            <label for="location">Place of Birth</label>
+            <select name="location" id="location">
+                <option value="so">Select a location</option>
+                <option value="india">India</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="Japan">Japan</option>
+                <option value="Bhutan">Bhutan</option>
+            </select>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date">
+
+            <label for="time">Time of Birth</label>
+            <input type="time" name="time" id="time">
+
+        </fieldset>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="planets.html">Planets</a></li>
+                <li><a href="signs.html">Signs</a></li>
+                <li><a href="Houses.html">Houses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
